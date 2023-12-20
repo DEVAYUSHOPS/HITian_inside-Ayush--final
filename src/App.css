@@ -1,9 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-
 }
-
+*::-webkit-scrollbar {
+  display: none;
+}
 .App {
   text-align: center;
   height: 100vh;

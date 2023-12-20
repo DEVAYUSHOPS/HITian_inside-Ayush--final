@@ -1,21 +1,22 @@
 import React from "react";
-// import "./Events.css";
-
-
+import "./Events.css";
+import navroopam from "../../assets/images/Navroopam.png";
+import deepdarpan from "../../assets/images/Deepdarpan.png";
+import extravaganza from "../../assets/images/Extravaganza.jpg"
 
 const events = [
   {
-    img_url: "https://www.w3schools.com/howto/img_5terre.jpg",
+    img_url: navroopam,
     name: "Navroopam",
     date: "18/08/23",
   },
   {
-    img_url: "https://www.w3schools.com/howto/img_5terre.jpg",
+    img_url: deepdarpan,
     name: "Deepdarpan",
     date: "18/08/23",
   },
   {
-    img_url: "https://www.w3schools.com/howto/img_5terre.jpg",
+    img_url: extravaganza,
     name: "Extravaganza",
     date: "18/08/23",
   },

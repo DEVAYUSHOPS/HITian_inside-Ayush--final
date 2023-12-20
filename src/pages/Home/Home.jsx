@@ -26,7 +26,7 @@ function Home() {
       {/* About us */}
 
       <section className="aboutus h-fit bg-gradient-to-b from-[#FFB5B5] to-[#A95454] md:h-screen">
-        {/* <img src={grad1} alt="gradient" className="gradient1" /> */}
+    
         <h1 className="text-3xl/[3rem] md:text-5xl/[3rem] aboutus-title font-medium text-[#650808] pt-10">
           About us
         </h1>
@@ -45,7 +45,7 @@ function Home() {
             </button>
           </Link>
         </div>
-        <div className="cards mt-20 grid grid-cols-1 md:grid-cols-5 gap-4 justify-between">
+        <div className="cards pt-24 grid grid-cols-1 md:grid-cols-5 gap-4 justify-end">
           <div className="card one rounded-md m-3 md:m-0 h-fit">
             <img src={testImg} className="rounded-md" alt="" />
           </div>
